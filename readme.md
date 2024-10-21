@@ -15,3 +15,9 @@ docker run --rm -v "`pwd`:/data" pandoc/extra:3.2.0 readme.md -o doc.pdf --templ
 ```
 docker run --rm -v "`pwd`:/data" pandoc/extra:3.2.1 readme.md -o doc.pdf --template=eisvogel
 ```
+
+## Works not with Pandoc 3.5.0
+
+```
+docker run --rm -v "`pwd`:/data" pandoc/extra:3.5.0 readme.md -o doc.pdf --template=eisvogel
+```
